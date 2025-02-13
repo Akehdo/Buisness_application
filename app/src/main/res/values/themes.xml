@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Buisness_application" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/very_dark_blue</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/dark_blue</item>
+
+    </style>
+
+
+
+    <style name="Theme.Buisness_application" parent="Base.Theme.Buisness_application" />
+</resources>

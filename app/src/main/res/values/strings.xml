@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Buisness_application</string>
+    <string name="HOME_FRAGMENT">HOME_FRAGMENT</string>
+    <string name="TOOLS_FRAGMENT">TOOLS_FRAGMENT</string>
+    <string name="NOTES_FRAGMENT">NOTES_FRAGMENT</string>
+
+    <string name="TOOLS">Инструменты</string>
+    <string name="pirate_funnel">Пиратская воронка</string>
+    <string name="auxiliary_text_1">Анализ и оптимизация</string>
+    <string name="TabLayout_bn_1">Выбор инструментов</string>
+    <string name="TabLayout_bn_2">История использования</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
