@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
 
 import com.example.buisness_application.R;
@@ -75,9 +76,12 @@ public class ToolPirateFunnelActivity extends AppCompatActivity {
             dataToSave.put("revenueNum", revenueNum);
 
             databaseReference.child("pirate_funnels").push().setValue(dataToSave)
-                    .addOnSuccessListener(aVoid ->
-                        Toast.makeText(ToolPirateFunnelActivity.this, "Данные сохранены!", Toast.LENGTH_SHORT).show()
-                    )
+                    .addOnSuccessListener(new OnSuccessListener() {
+                        @Override
+                        public void onSuccess(Object o) {
+                            Toast.makeText(ToolPirateFunnelActivity.this, "Данные сохранены!", Toast.LENGTH_SHORT).show();
+                        }
+                    })
                     .addOnFailureListener(new OnFailureListener() {
                         @Override
                         public void onFailure(@NonNull Exception e) {
