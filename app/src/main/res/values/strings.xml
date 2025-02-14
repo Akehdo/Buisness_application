@@ -11,4 +11,5 @@
     <string name="TabLayout_bn_2">История использования</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_pirate_funnel">Пиратская воронка</string>
 </resources>
